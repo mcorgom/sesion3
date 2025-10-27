@@ -1,0 +1,74 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento Simple de Divs</title>
+    <link rel="icon" href="estrella.gif" type="gif/x-icon">
+    <style>
+        /* Estilo general para los divs */
+        div {
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            border: 2px solid rgba(59, 42, 42, 0.842);
+        }
+
+        /* Div centrado horizontalmente */
+        .centered {
+            width: 50%;
+            /* Centrado horizontalmente */
+            margin: 0 auto;
+            background-color: rgb(155, 224, 155);
+        }
+
+        /* Div alineado a la derecha */
+        .right {
+            width: 200px;
+            /* Alinear a la derecha */
+            margin-left: auto;
+            margin-right: 0;
+            background-color: rgb(236, 160, 132);
+        }
+
+        /* Div en una posición específica usando píxeles */
+        .specific-px {
+            width: 300px;
+            /* Separado 100px desde la izquierda */
+            margin-left: 100px;
+            /* Separado 150px desde la parte superior */
+            margin-top: 150px;
+            background-color: pink;
+        }
+
+        /* Div en una posición específica usando porcentaje */
+        .specific-percent {
+            width: 30%;
+            /* 20% desde la izquierda */
+            margin-left: 20%;
+            /* 30% desde la parte superior */
+            margin-top: 30%;
+            background-color: rgba(0, 0, 255, 0.397);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Div centrado horizontalmente -->
+    <div class="centered">Centrado Horizontalmente</div>
+
+    <!-- Div alineado a la derecha -->
+    <div class="right">Alineado a la Derecha</div>
+
+    <!-- Div en una posición específica usando píxeles -->
+    <div class="specific-px">Posición en píxeles</div>
+
+    <!-- Div en una posición específica usando porcentaje -->
+    <div class="specific-percent">Posición en %</div>
+
+</body>
+
+</html>
